@@ -1,0 +1,274 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background-color: rgb(210, 137, 53);
+}
+#p1{
+    font-size:45px;
+    font-family:Algerian;
+    font-weight: bolder;
+    color:black;
+    position: relative;
+    left:7rem;
+}
+.container1{
+    display:flex;
+    flex-direction: row;
+    background-color:#e2db70f9;
+
+}
+#div1{
+    height:5rem;
+}
+#list1{
+    position:absolute;
+    top:1rem;
+    left:30rem;
+    font-size: larger;
+    
+
+}
+#list2{
+    position:absolute;
+    top:1rem;
+    left:40rem;
+    font-size: larger;
+}
+#list3{
+    position:absolute;
+    top:1rem;
+    left:50rem;
+    font-size: larger;
+}
+#list4{
+    position:absolute;
+    top:1rem;
+    left:60rem;
+    font-size: larger;
+}
+#button1{
+    position: absolute;
+    top:1rem;
+    left:70rem;
+    font-size: large;
+}
+
+#crack{
+    color:white;
+    background-color:black;
+    font-size: 50px;
+    font-family: Algerian;
+    padding-top:1rem;
+    gap:0px;
+    text-align: center;
+    animation-name: hello;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    transition:all 3s linear;
+}
+
+ 
+#crack{
+    transform: scale(1.5); 
+  
+} 
+#div3{
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: space-around;
+}
+#div2{
+    padding-top: 1rem;
+}
+#div4{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#img1{
+    height:50vh;
+    width:40vw;
+    transition: all 3s linear;
+}
+#img1:hover{
+    transform:scale(1.05);
+}
+#div5{
+    position: relative;
+    top:2rem;   
+    font-size:x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#span1{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#div6{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(1,1fr);
+    row-gap: 3vh;
+    position: relative;
+    left:2vw;
+}
+#div7{
+ background-color: lightcyan;
+ height:40vh;
+ width:20vw;
+}
+#div8{
+    background-color: lightcyan;
+    height:40vh;
+    width:20vw;
+    position: relative;
+   }
+   #div9{
+    background-color: lightcyan;
+    height:40vh;
+    width:20vw;
+   }
+   #div10{
+    background-color: lightcyan;
+    height:40vh;
+    width:20vw;
+   }
+#p2{
+    text-align: center;
+    font-size: 5vh;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#p3{
+    text-align: center;
+    font-size: 5vh;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#p4{
+    text-align: center;
+    font-size: 5vh;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#p5{
+    text-align: center;
+    font-size: 5vh;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#header2{
+    text-align: center;
+    font-size: 10vh;
+    font-weight: bolder;
+}
+#div11{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(1,1fr);
+}
+#div12{
+    height:50vh;
+    width:20vw;
+}
+#div13{
+   
+    height:50vh;
+    width:30vw;
+}
+#div14{
+    
+    height:50vh;
+    width:20vw;
+}
+.imga{
+    height:40vh;
+    width:20vw;
+    position: relative;
+    left:3vw;
+}
+#header3{
+    text-align: center;
+}
+#header4{
+    text-align: center;
+    position: relative;
+    left:3vw;
+}
+#header5{
+    position: relative;
+    left:8vw;
+}
+#div20{
+    display:flex;
+    flex-direction: row;
+}
+#div21{
+    font-size: xx-large;
+    text-align: center;
+}
+#li1{
+    position:absolute;
+
+    left:10vw;
+}
+
+#li2{
+    position:absolute;
+ 
+    left:50vw;
+}
+#i56{
+position: relative;
+top:10vh;
+height: 70vh;
+width: 30vw;
+}
+#li3{
+    position:absolute;
+    left:80vw;
+
+}
+#div22{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#div24{
+    border: 2px solid black;
+    
+}
+
+#header5{
+    font-size: xx-large;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    position: relative;
+    left:40vw;
+}
+#header6{
+text-align:center;
+}
+#img56{
+position: relative;
+padding-top: 30px;
+left:20vw;
+height:60vh;
+width:50vw;
+transition: all 3s linear;
+}
+#div45{
+font-size: x-large;
+position: relative;
+left:40vw;
+}
+#ui{
+    transition: all 3s linear;
+}
+#ui:hover{
+    transform:scale(1.1);
+}
